@@ -1,5 +1,5 @@
 <p align="center"><a href="https://github.com/nastyox/Rando.js#nastyox"><img src="http://randojs.com/images/shapeShifterGray.gif" alt="Gray shape shifter" height="60"/></a></p>
-<h1 align="center">Rando.js</h1>
+<h1 align="center">Rando.py</h1>
 <p align="center">The world's easiest, most powerful random function.</p>
 
 <p align="center">
