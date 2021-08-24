@@ -1,16 +1,16 @@
-<p align="center"><a href="https://github.com/famaxth/Rando.py#famaxth"><img src="http://randojs.com/images/shapeShifterGray.gif" alt="Gray shape shifter" height="60"/></a></p>
-<h1 align="center">Rando.py</h1>
+<p align="center"><a href="https://github.com/famaxth/Random.py#famaxth"><img src="http://randojs.com/images/shapeShifterGray.gif" alt="Gray shape shifter" height="60"/></a></p>
+<h1 align="center">Random.py</h1>
 <p align="center">The world's easiest, most powerful random function.</p>
 
 <p align="center">
-	<a href="https://github.com/famaxth/Rando.py#famaxth"><img src="https://img.shields.io/github/languages/code-size/famaxth/Rando.py?color=green" height="20"/></a>
+	<a href="https://github.com/famaxth/Random.py#famaxth"><img src="https://img.shields.io/github/languages/code-size/famaxth/Random.py?color=green" height="20"/></a>
     <a href="https://twitter.com/intent/tweet?text=Ditch%20all%20that%20convoluted%20%22Math.random()%22%20code.%20Rando.js%20makes%20picking%20a%20number%201-100%20as%20simple%20as%20%22rando(1,%20100)%22,%20and%20it%20can%20do%20way%20more%20just%20as%20easily-%20at%20a%20cryptographically%20strong%20level.&url=https://github.com/nastyox/Rando.js&hashtags=javascript,opensource,js,webdev,developers"><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a>
 </p><br/><br/>
 
-<p align="center"><a href="https://github.com/famaxth/Rando.py#famaxth"><img src="http://randojs.com/images/2.0.0-20fps.gif" width="100%"/></a><a href="#famaxth"><img src="http://randojs.com/images/dropShadow.png" width="100%"/></a></p><br/>
+<p align="center"><a href="https://github.com/famaxth/Random.py#famaxth"><img src="http://randojs.com/images/2.0.0-20fps.gif" width="100%"/></a><a href="#famaxth"><img src="http://randojs.com/images/dropShadow.png" width="100%"/></a></p><br/>
 
 ## :hear_no_evil:  What's all the hullabaloo?  
-<a href="https://randojs.com" target="_blank">Rando.py</a> helps JavaScript developers code randomness more simply, readably, and securely. Whether you need to find a random int/float between two numbers, pick a random value from an array, choose a random element from your jQuery object, grab a character from a string, toss a coin, or do anything of the like while even preventing repetitions, we've got you covered at a **cryptographically strong** level. The best part? Our library is extremely lightweight and developer friendly- which means it won't take a toll on your project, and it's uber-simple to implement.  <br/><br/><br/>
+<a href="https://randojs.com" target="_blank">Random.py</a> helps JavaScript developers code randomness more simply, readably, and securely. Whether you need to find a random int/float between two numbers, pick a random value from an array, choose a random element from your jQuery object, grab a character from a string, toss a coin, or do anything of the like while even preventing repetitions, we've got you covered at a **cryptographically strong** level. The best part? Our library is extremely lightweight and developer friendly- which means it won't take a toll on your project, and it's uber-simple to implement.  <br/><br/><br/>
 
 
 
@@ -25,10 +25,10 @@ Or, use npm:
 npm i @nastyox/rando.js
 
 //Then, paste this at the top of your JavaScript file:
-const {rando, randoSequence} = require('@nastyox/rando.js');
+const {rando, randoSequence} = require('@famaxth/random.py');
 
 //Note: If your project is a module, you can paste this in your JavaScript file instead:
-import {rando, randoSequence} from '@nastyox/rando.js';
+import {rando, randoSequence} from '@famaxth/random.py';
 ```
    **Step 2:** Use any of the commands explained at <a href="https://randojs.com" target="_blank">https://randojs.com/</a> however you like.  <br/><br/><br/>
   
@@ -63,8 +63,8 @@ import {rando, randoSequence} from '@nastyox/rando.js';
 
 
 ## :clap:  Supporters
-[![Stargazers repo roster for @famaxth/Rando.py](https://reporoster.com/stars/famaxth/Rando.py)](https://github.com/famaxth/Rando.py/stargazers)
-[![Forkers repo roster for @famaxth/Rando.py](https://reporoster.com/forks/famaxth/Rando.py)](https://github.com/famaxth/Rando.py/network/members)
-<p align="center"><a href="https://github.com/famaxth/Rando.py#famaxth"><img src="http://randojs.com/images/barsSmall.gif" alt="Animated footer bars" width="100%"/></a></p>
+[![Stargazers repo roster for @famaxth/Random.py](https://reporoster.com/stars/famaxth/Random.py)](https://github.com/famaxth/Random.py/stargazers)
+[![Forkers repo roster for @famaxth/Random.py](https://reporoster.com/forks/famaxth/Random.py)](https://github.com/famaxth/Random.py/network/members)
+<p align="center"><a href="https://github.com/famaxth/Random.py#famaxth"><img src="http://randojs.com/images/barsSmall.gif" alt="Animated footer bars" width="100%"/></a></p>
 <br/>
-<p align="center"><a href="https://github.com/famaxth/Rando.py#"><img src="http://randojs.com/images/backToTopButton.png" alt="Back to top" height="29"/></a></p>
+<p align="center"><a href="https://github.com/famaxth/Random.py#"><img src="http://randojs.com/images/backToTopButton.png" alt="Back to top" height="29"/></a></p>
