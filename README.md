@@ -9,60 +9,43 @@
 
 <p align="center"><a href="https://github.com/famaxth/Random.py#famaxth"><img src="http://randojs.com/images/2.0.0-20fps.gif" width="100%"/></a><a href="#famaxth"><img src="http://randojs.com/images/dropShadow.png" width="100%"/></a></p><br/>
 
-## :hear_no_evil:  What's all the hullabaloo?  
-<a href="https://randojs.com" target="_blank">Random.py</a> helps JavaScript developers code randomness more simply, readably, and securely. Whether you need to find a random int/float between two numbers, pick a random value from an array, choose a random element from your jQuery object, grab a character from a string, toss a coin, or do anything of the like while even preventing repetitions, we've got you covered at a **cryptographically strong** level. The best part? Our library is extremely lightweight and developer friendly- which means it won't take a toll on your project, and it's uber-simple to implement.  <br/><br/><br/>
+## :large_blue_diamond:  What's all the hullabaloo?  
+This script helps Python developers code randomness more simply, readably, and securely.
 
 
 
-## :zap:  Fast implementation  
-   **Step 1:** Paste the following script tag into the head of your HTML document:<br/>
-  ```JavaScript
-<script src="https://randojs.com/2.0.0.js"></script>
+## 🌀:  Fast implementation  
+  ```Python
+python main.py
   ```  
-Or, use npm:
-```JavaScript
-//Install:
-npm i @nastyox/rando.js
-
-//Then, paste this at the top of your JavaScript file:
-const {rando, randoSequence} = require('@famaxth/random.py');
-
-//Note: If your project is a module, you can paste this in your JavaScript file instead:
-import {rando, randoSequence} from '@famaxth/random.py';
-```
-   **Step 2:** Use any of the commands explained at <a href="https://randojs.com" target="_blank">https://randojs.com/</a> however you like.  <br/><br/><br/>
   
-  
-  
-## :tada:  Examples  
-  ```JavaScript
-   rando()                       //a floating-point number between 0 and 1 (could be exactly 0, but never exactly 1)  
-   rando(5)                      //an integer between 0 and 5 (could be 0 or 5)  
-   rando(5, 10)                  //a random integer between 5 and 10 (could be 5 or 10)  
-   rando(5, "float")             //a floating-point number between 0 and 5 (could be exactly 0, but never exactly 5)  
-   rando(5, 10, "float")         //a floating-point number between 5 and 10 (could be exactly 5, but never exactly 10)  
-   rando(true, false)            //either true or false  
-   rando(["a", "b"])             //{index:..., value:...} object representing a value of the provided array OR false if array is empty  
-   rando({a: 1, b: 2})           //{key:..., value:...} object representing a property of the provided object OR false if object has no properties  
-   rando($("div"))               //{index:..., value:...} object representing a jQuery element from the provided jQuery element set OR false if the provided jQuery element set does not contain any elements.  
-   rando("Gee willikers!")       //a character from the provided string OR false if the string is empty. Reoccurring characters will naturally form a more likely return value  
-   rando(null)                   //ANY invalid arguments return false  
+## Ⓜ️:  Other examples of using the random function  
+  ```Python
+   random.seed([X], version=2)                    # Initialization of the random number generator. If X is not specified, the system time is used.
+   random.getstate()                              # The internal state of the generator.
+   random.setstate(state)                         # Restores the internal state of the generator. The state parameter must be obtained by the getstate () function.
+   random.getrandbits(N)                          # Returns N random bits.
+   random.randrange(start, stop, step)            # Returns a randomly selected number from the sequence.
+   random.randint(A, B)                           # Random integer N, A ≤ N ≤ B.
+   random.choice(sequence)                        # A random element of a non-empty sequence.
+   random.random()                                # A random number from 0 to 1.
+   random.uniform(A, B)                           # A random floating-point number, A ≤ N ≤ B (or B ≤ N ≤ A).
+   random.sample(population, k)                   # A list of length k from the population sequence.
+   random.triangular(low, high, mode)             # A random floating-point number, low ≤ N ≤ high. Mode-distribution.
+   random.shuffle(sequence, [rand])               # Shuffles the sequence (the sequence itself changes). Therefore, the function does not work for immutable objects.
+   random.betavariate(alpha, beta)                # Beta distribution. alpha>0, beta>0. Returns from 0 to 1.
+   random.expovariate(lambd)                      # Exponential distribution. lambd is equal to 1/the desired average. The Lambd must be non-zero.
+   random.gammavariate(alpha, beta)               # Gamma distribution. Conditions for the parameters alpha>0 and beta>0.
+   random.gauss(value, standard deviation)        # The Gaussian distribution.
+   random.lognormvariate(mu, sigma)               # The logarithm of the normal distribution.
+   random.normalvariate(mu, sigma)                # Normal distribution. mu is the average value, sigma is the standard deviation.
+   random.vonmisesvariate(mu, kappa)              # mu is the average angle expressed in radians from 0 to 2π, and kappa is the concentration parameter, which must be greater than or equal to zero.
+   random.paretovariate(alpha)                    # Pareto distribution.
+   random.weibullvariate(alpha, beta)             # The Weibull distribution.
   ```
-  
-### &#8674; Prevent repetitions by grabbing a sequence and looping through it  
-  ```JavaScript
-   randoSequence(5)              //an array of integers from 0 through 5 in random order  
-   randoSequence(5, 10)          //an array of integers from 5 through 10 in random order  
-   randoSequence(["a", "b"])     //an array of {index:..., value:...} objects representing the values of the provided array in random order  
-   randoSequence({a: 1, b: 2})   //an array of {key:..., value:...} objects representing the properties of the provided object in random order  
-   randoSequence($("div"))       //an array of {index:..., value:...} objects representing all jQuery elements from the provided jQuery element set in random order.   
-   randoSequence("Good gravy!")  //an array of the characters of the provided string in random order  
-   randoSequence(null)           //ANY invalid arguments return false
-```
-<br/><br/><br/>
 
 
-## :clap:  Supporters
+## 🧢:  Supporters
 [![Stargazers repo roster for @famaxth/Random.py](https://reporoster.com/stars/famaxth/Random.py)](https://github.com/famaxth/Random.py/stargazers)
 [![Forkers repo roster for @famaxth/Random.py](https://reporoster.com/forks/famaxth/Random.py)](https://github.com/famaxth/Random.py/network/members)
 <p align="center"><a href="https://github.com/famaxth/Random.py#famaxth"><img src="http://randojs.com/images/barsSmall.gif" alt="Animated footer bars" width="100%"/></a></p>
