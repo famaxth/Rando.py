@@ -3,7 +3,7 @@
 <p align="center">The world's easiest, most powerful random function.</p>
 
 <p align="center">
-	<a href="https://github.com/famaxth/Random.py#famaxth"><img src="https://img.shields.io/github/languages/code-size/famaxth/Random.py?color=green" height="20"/></a>
+	<a href="https://github.com/famaxth/Random.py#famaxth"><img src="https://img.shields.io/github/languages/code-size/famaxth/Random.py?color=blue" height="20"/></a>
 
 </p><br/><br/>
 
