@@ -7,7 +7,7 @@
 
 </p><br/><br/>
 
-<p align="center"><a href="https://github.com/famaxth/Random.py#famaxth"><img src="http://randojs.com/images/2.0.0-20fps.gif" width="100%"/></a><a href="#famaxth"><img src="http://randojs.com/images/dropShadow.png" width="100%"/></a></p><br/>
+<p align="center"><a href="https://imgbb.com/"><img src="https://i.ibb.co/WK0PjGC/JR35h2Mc.jpg" alt="JR35h2Mc" border="0"></a></a></p><br/>
 
 ## :large_blue_diamond:  What's all the hullabaloo?  
 This script helps Python developers code randomness more simply, readably, and securely.
